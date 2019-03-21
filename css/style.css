@@ -1,0 +1,25 @@
+* {
+  margin:0;
+}
+body {
+  font: 200 16px/1 Helvetica, Arial, sans-serif;
+}
+img {
+  width:32.2%;
+}
+.progress {
+  position:fixed;
+  z-index:1;
+  width: 100%;
+  height: 5px;
+  top:0;
+  left:0;
+  background: transparent;
+  transition: 1s;
+}
+.progress-thumb {
+  height: 100%;
+  background: #F44336;
+  width: 0;
+  transition: .5s;
+}
